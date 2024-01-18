@@ -1,0 +1,69 @@
+/*
+	Created by Tatum Manning
+	
+	The goal of this project was to create a web page for a fictional store
+	called "Grannie's Pies" as well as a web page devoted to a lemon meringue
+	pie recipe. 
+	
+*/
+body {
+	
+	color: #404040;
+	font-size: 11pt;
+	font-family: "Georgia";
+	background-image: url("silverware.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+
+p {
+	font-family: "Garamond";
+}
+
+h1, h2 {
+	letter-spacing: 0.25em;
+	color: #A4A400;
+	background-color: #F0F0F0;
+	font-family: "Lucida Sans Unicode";
+	font-size: 18pt;
+	text-decoration: underline;
+	font-weight: normal;
+	text-align: left;
+	
+}
+
+ul {
+	list-style-image: url('pie_bullet.png');
+}
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 22pt;
+	
+}
+
+p {
+	font-family: "Georgia";
+}
+
+a {
+	color: #A4A400;
+}
+
+.copyright {
+	text-align: right;
+}
+
+.quotes {
+	font-style: italic;
+	background-color: #FFFFA8;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+
