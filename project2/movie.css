@@ -1,0 +1,160 @@
+/*
+		Created by Tatum Manning
+		
+		The goal of this project was to create a review site webpage for
+		TMNT to exact specifications.
+*/
+
+body {
+	background-image: url("background.png");
+	margin: 0px;
+	padding: 0px;
+	font-family: "Verdana";
+	
+}
+
+.banner {
+	background-image: url("bannerbg.png");
+	
+}
+
+img.banner {
+	display: block;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+
+h1 {
+	text-align: center;
+	font-family: "Tahoma";
+	text-shadow: 3px 3px 5px #999999;
+	font-size: 24pt;
+	font-weight: bold;
+}
+
+#overall {
+	width: 550px;
+}
+
+#main {
+	border: 4px solid grey;
+	border-radius: 20px;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 8pt;
+	
+}
+
+#overview {
+	float: right;
+	width: 250px;
+	height: 958px;
+	margin-left: 10px;
+	font-size: 8pt;
+	font-family: "Arial";
+	background-color: #A2B964;
+	border-top-right-radius: 20px;
+	
+	overflow:hidden;
+	
+}
+
+img.over_image {
+	overflow: hidden;
+	border-top-right-radius: 20px;
+}
+
+.reviews {
+	column-count: 2;
+	column-width: 47%;
+	column-gap: 2%;
+	margin-left: 10px;	
+}
+
+
+.score {
+	font-size: 48pt;
+	color: red;
+	font-weight: bold;
+	position: relative;
+	top: -15px;
+	
+}
+
+.review_banner {
+	margin-top: 0px;
+	background-image: url("rbg.png");
+	height: 83px;
+	border-top-left-radius: 20px;
+	
+	
+}
+.bigrotten {
+	border-radius: 20px;
+}
+
+dt{
+	font-weight: bold;
+	
+}
+
+dd {
+	padding-bottom: 10pt;
+}
+
+ul{
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.details{
+	padding-left: 10pt;
+}
+
+.icon {
+	padding-top: 0px;
+	vertical-align: top;
+	float: left;
+}
+
+.reply {
+	margin-top: 20pt;
+	border: 2px solid grey;
+	border-radius: 10px;
+	font-size: 8pt;
+	font-weight: bold;
+	background-color:#E8DC9B;
+	padding: 8px; 
+	padding-bottom: 15px;
+	
+}
+
+p.pages {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 0px;
+	text-align: center;
+	background-color: #A2B964;
+	clear: right;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.criticon {
+	float: left;
+	margin-right: 5px;
+}
+
+.nyt {
+	display: block;
+	break-before: column;
+	
+}
+
+.pub {
+	font-style: italic;
+}
