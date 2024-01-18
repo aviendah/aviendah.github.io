@@ -1,0 +1,164 @@
+body {
+	font-family: "Garamond";
+
+}
+
+#heading {
+	background-image: url("sky.jpg");
+	background-color: #c2eafc;
+}
+
+#navigation {
+  background-color: #9e8775
+}
+
+#logo {
+	font-size: 50px;
+	font-weight: bold;
+	color: white;
+}
+
+.hogwarts {
+	display: inline;
+	float: right;
+}
+
+.hippogriff {
+	position: absolute;
+}
+
+ul#navlist{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+li.location {
+  float: left;
+  display: block;
+  padding: 8px;
+  
+}
+
+#banner a{
+	text-decoration: none;
+	color: white;
+}
+
+.title {
+	text-align: center;
+}
+
+.links {
+	text-align: center;
+}
+
+#footer {
+	text-align: right;
+}
+
+fieldset {
+	background-color: #E0E0FF;
+	border: 2px outset gray;
+	border-radius: 10px;
+	width: 400pt;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+legend{
+	border: 1px solid black;
+	background-color: white;
+	font-weight: bold;
+}
+
+
+label {
+	font-weight: bold;
+}
+
+/* THIS WILL NOT WORK */
+.not_member{
+	text-align: center;
+}
+
+.forum_post {
+	border-style: solid;
+	border-radius: 25pt;
+	padding-left: 10pt;
+	padding-right: 10pt;
+	padding-top: 5pt;
+	padding-bottom: 5pt;
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:10pt;
+	margin-bottom:10pt;
+}
+
+ .room_post{
+	border-style: solid;
+	border-radius: 25pt;
+	padding-left: 10pt;
+	padding-right: 10pt;
+	padding-top: 5pt;
+	padding-bottom: 5pt;
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:10pt;
+	margin-bottom:10pt;
+
+ }
+ 
+ .character_post {
+	border-style: solid;
+	border-radius: 25pt;
+	padding-left: 10pt;
+	padding-right: 10pt;
+	padding-top: 5pt;
+	padding-bottom: 5pt;
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:10pt;
+	margin-bottom:10pt;
+ }
+ 
+ .room_post iframe {
+	 max-width: 100%;
+	
+ }
+
+.post_title, .room_title, .char_name {
+	text-decoration: underline;
+}
+
+.post_button {
+	text-align:center;
+}
+
+.show_name {
+
+	display: block;
+	position:absolute; 
+	right:0;
+	text-align: right;
+	margin-right: 10pt;
+
+}
+
+
+
+span.poster {
+	font-weight: bold;
+}
+
+img.char_img {
+	max-width: 100%;
+	height:auto;
+}
+
+
+

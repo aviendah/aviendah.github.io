@@ -1,0 +1,56 @@
+body {
+	background-color: #ccccff;
+	font-family: Sans-Serif;
+	font-size: 14pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+h1 {
+	font-size: 32pt;
+	font-weight: bold;
+	margin: 0 auto;
+}
+
+textarea {
+	display: block;
+	width: 90%;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 12pt;
+	font-family: monospace;
+	font-weight: bold;
+	
+}
+
+fieldset {
+	border: 5px solid black;
+	display: inline;
+}
+
+.field {
+	text-align: center;
+}
+
+#controls {
+	text-align: center;
+}
+
+select {
+	font-family: Sans-Serif;
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+input[type=submit] {
+	font-family: Sans-Serif;
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+button {
+	font-family: Sans-Serif;
+	font-size: 14pt;
+	font-weight: bold;
+}

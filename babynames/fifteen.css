@@ -1,0 +1,44 @@
+/*
+Project 3: Fifteen Puzzle
+Creator: Tatum Manning
+
+*/
+
+body  {
+	text-align: center;
+	font-family: cursive;
+	font-size: 14pt;
+}
+
+#shufflebutton {
+	font-family: cursive;
+	font-size: 14pt;
+}
+
+#puzzlearea {
+
+	width: 400px;
+	height: 400px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+
+}
+
+.square {
+	width: 90px;
+	height: 90px;
+	border: 5px solid black;
+	margin: 0px;
+	font-size: 40pt;
+	background-image: url("background.jpg");
+	background-color: #cccccc;	
+	position: absolute;
+
+}
+
+.selected:hover {
+	border: 5px solid red;
+	color: red;
+}
