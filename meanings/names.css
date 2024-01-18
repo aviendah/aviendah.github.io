@@ -1,0 +1,40 @@
+body {
+	font-size: 12pt;
+	font-family: "Georgia", serif;	
+}
+
+#search {
+	font-size: 12pt;
+	font-family: "Georgia", serif;	
+}
+
+select {
+	font-size: 12pt;
+	font-family: "Georgia", serif;	
+}
+
+td {
+	height: 250px;
+	width: 50px;
+	vertical-align: bottom;
+}
+
+q {
+	font-style: italic;
+}
+
+.bar {
+	background-color: #ffbbbb;
+	text-align: center;
+	font-weight: bold;
+	
+}
+
+.popular {
+	color: red;
+}
+
+
+.zero {
+	height: 0px;
+}
